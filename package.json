@@ -11,6 +11,10 @@
     ".": "./index.js",
     "./p-trim-text.js": "./p-trim-text.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hi-Pyncho/p-trim-text"
+  },
   "scripts": {
     "analyze": "cem analyze --litelement",
     "start": "web-dev-server",
