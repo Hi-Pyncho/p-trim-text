@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom element p-trim-text</title>
+</head>
+<body>
+  <div id="demo"></div>
+
+  <script type="module">
+    import { html, render } from 'lit';
+    import '../p-trim-text.js';
+
+    render(
+      html`
+        <p-trim-text >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, numquam doloremque quia suscipit nam quibusdam incidunt obcaecati sequi, voluptate enim minima et aperiam nobis eum laboriosam! Neque explicabo nam illum a perspiciatis eveniet corrupti quia dolore! Architecto est eaque corporis a iusto praesentium dolorem. Inventore necessitatibus dolorem similique cumque minima?
+        </p-trim-text>
+      `,
+      document.querySelector('#demo')
+    );
+
+    window.addEventListener('resize', () => {
+      const element = document.querySelector('p-trim-text');
+
+      if(window.innerWidth < 600) {
+        element.setAttribute('letters-to-trim', 5);
+      } else {
+        element.setAttribute('letters-to-trim', 20);
+      }
+    });
+  </script>
+</body>
+</html>
