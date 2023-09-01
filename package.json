@@ -5,8 +5,8 @@
   "author": "p-trim-text",
   "version": "1.0.0",
   "type": "module",
-  "main": "index.js",
-  "module": "index.js",
+  "main": "p-trim-text.js",
+  "module": "p-trim-text.js",
   "exports": {
     ".": "./index.js",
     "./p-trim-text.js": "./p-trim-text.js"
