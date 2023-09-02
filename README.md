@@ -1,5 +1,5 @@
 # \<p-trim-text>
-Component that allows to trim text with replacer. And show full text native description on hover
+Component that allows to trim text with replacer. And show full text with native description (title and aria-label) on hover
 
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@pyncho-wc/p-trim-text)
 [![npm (scoped)](https://img.shields.io/npm/v/%40pyncho-wc/p-trim-text?logo=npm&color=green)](https://www.npmjs.com/package/@pyncho-wc/p-trim-text)
