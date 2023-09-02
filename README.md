@@ -1,21 +1,50 @@
 # \<p-trim-text>
 
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/owner/my-element)
+
 This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
 
-## Installation
+<!--
+```
+<custom-element-demo>
+  <template>
+    <script src="./p-trim-text.js"></script>
+    <link rel="import" href="./demo/index.html">
+    <next-code-block></next-code-block>
+  </template>
+</custom-element-demo>
+```
+-->
+```html
+<p-trim-text></p-trim-text>
+```
 
+## Installation
+### CDN
+```js
+import 'https://cdn.skypack.dev/@pyncho-wc/p-trim-text';
+```
+or
+```html
+<script
+  type="module"
+  src="https://cdn.skypack.dev/@pyncho-wc/p-trim-text">
+</script>
+```
+
+With builders like webpack, vite etc
 ```bash
-npm i p-trim-text
+npm i @pyncho-wc/p-trim-text
 ```
 
 ## Usage
 
 ```html
-<script type="module">
-  import 'p-trim-text/p-trim-text.js';
-</script>
-
-<p-trim-text></p-trim-text>
+<p-trim-text
+  letters-to-trim="5"
+  replacer='---'>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+</p-trim-text>
 ```
 
 ## Linting and formatting
