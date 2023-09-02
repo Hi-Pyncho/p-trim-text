@@ -3,7 +3,7 @@
   "description": "Component that allows to trim text with replacer. And show full text native description on hover",
   "license": "MIT",
   "author": "hi-pyncho",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
   "main": "p-trim-text.js",
   "module": "p-trim-text.js",
