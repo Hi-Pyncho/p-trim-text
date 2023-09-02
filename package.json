@@ -2,14 +2,14 @@
   "name": "@pyncho-wc/p-trim-text",
   "description": "Webcomponent p-trim-text following open-wc recommendations",
   "license": "MIT",
-  "author": "p-trim-text",
+  "author": "hi-pyncho",
   "version": "1.0.4",
   "type": "module",
   "main": "p-trim-text.js",
   "module": "p-trim-text.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hi-Pyncho/p-trim-text.git"
+    "url": "https://github.com/Hi-Pyncho/p-trim-text"
   },
   "scripts": {
     "analyze": "cem analyze --litelement",
