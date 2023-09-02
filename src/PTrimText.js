@@ -26,13 +26,14 @@ export class PTrimText extends LitElement {
   connectedCallback() {
     super.connectedCallback();
     this.text = this.textContent.trim();
+    this.setAttribute('title', this.text);
+    this.setAttribute('aria-label', this.text);
     this.innerHTML = '';
   }
 
   render() {
     return html`
       ${this.getTrimmedText()}
-      <slot></slot>
     `;
   }
 }
