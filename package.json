@@ -1,6 +1,6 @@
 {
   "name": "@pyncho-wc/p-trim-text",
-  "description": "Webcomponent p-trim-text following open-wc recommendations",
+  "description": "Component that allows to trim text with replacer. And show full text native description on hover",
   "license": "MIT",
   "author": "hi-pyncho",
   "version": "1.0.5",
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "analyze": "cem analyze --litelement",
-    "start": "web-dev-server",
+    "dev": "web-dev-server",
     "lint": "eslint --ext .js,.html . --ignore-path .gitignore && prettier \"**/*.js\" --check --ignore-path .gitignore",
     "format": "eslint --ext .js,.html . --fix --ignore-path .gitignore && prettier \"**/*.js\" --write --ignore-path .gitignore",
     "test": "web-test-runner --coverage",

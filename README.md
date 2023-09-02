@@ -1,6 +1,11 @@
 # \<p-trim-text>
+Component that allows to trim text with replacer. And show full text native description on hover
 
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/owner/my-element)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@pyncho-wc/p-trim-text)
+[![npm (scoped)](https://img.shields.io/npm/v/%40pyncho-wc/p-trim-text?logo=npm&color=green)](https://www.npmjs.com/package/@pyncho-wc/p-trim-text)
+![NPM](https://img.shields.io/npm/l/%40pyncho-wc%2Fp-trim-text?color=blue)
+![npm package minimized gzipped size (select exports)](https://img.shields.io/bundlejs/size/%40pyncho-wc%2Fp-trim-text)
+[![skypack cdn download link](https://img.shields.io/badge/download%20link-cdn?logo=skypack&label=skypack.dev&link=https%3A%2F%2Fcdn.skypack.dev%2F%40pyncho-wc%2Fp-trim-text)](https://cdn.skypack.dev/@pyncho-wc/p-trim-text)
 
 This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
 
@@ -21,11 +26,11 @@ This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) reco
 
 ## Installation
 ### CDN
-Inside script:
+#### Inside script:
 ```js
 import 'https://cdn.skypack.dev/@pyncho-wc/p-trim-text';
 ```
-or in html:
+#### Or in html:
 
 ```html
 <script
@@ -34,16 +39,18 @@ or in html:
 </script>
 ```
 
-With builders like webpack, vite etc:
+#### With builders like webpack, vite etc:
 ```bash
 npm i @pyncho-wc/p-trim-text
 ```
 
-If you need to change tag name:
+#### If you need to change tag name:
 ```js
 import PTrimText from '@pyncho-wc/p-trim-text/index.js';
 customElements.define('custom-trim-text', PTrimText);
 ```
+
+---
 
 ## Usage
 
@@ -57,6 +64,7 @@ customElements.define('custom-trim-text', PTrimText);
 <!-- RESULT: -->
 <!-- Lorem--- -->
 ```
+---
 
 ## Linting and formatting
 
@@ -72,6 +80,8 @@ To automatically fix linting and formatting errors, run
 npm run format
 ```
 
+---
+
 ## Testing with Web Test Runner
 
 To execute a single test run:
@@ -86,12 +96,15 @@ To run the tests in interactive watch mode run:
 npm run test:watch
 ```
 
+---
 
 ## Tooling configs
 
 For most of the tools, the configuration is in the `package.json` to minimize the amount of files in your project.
 
 If you customize the configuration a lot, you can consider moving them to individual files.
+
+---
 
 ## Local Demo with `web-dev-server`
 
