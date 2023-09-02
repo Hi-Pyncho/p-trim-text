@@ -21,10 +21,12 @@ This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) reco
 
 ## Installation
 ### CDN
+Inside script:
 ```js
 import 'https://cdn.skypack.dev/@pyncho-wc/p-trim-text';
 ```
-or
+or in html:
+
 ```html
 <script
   type="module"
@@ -32,9 +34,15 @@ or
 </script>
 ```
 
-With builders like webpack, vite etc
+With builders like webpack, vite etc:
 ```bash
 npm i @pyncho-wc/p-trim-text
+```
+
+If you need to change tag name:
+```js
+import PTrimText from '@pyncho-wc/p-trim-text/index.js';
+customElements.define('custom-trim-text', PTrimText);
 ```
 
 ## Usage
@@ -45,6 +53,9 @@ npm i @pyncho-wc/p-trim-text
   replacer='---'>
   Lorem ipsum dolor sit amet consectetur adipisicing elit.
 </p-trim-text>
+
+<!-- RESULT: -->
+<!-- Lorem--- -->
 ```
 
 ## Linting and formatting
