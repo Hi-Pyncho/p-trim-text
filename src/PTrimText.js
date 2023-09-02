@@ -36,8 +36,3 @@ export class PTrimText extends LitElement {
     `;
   }
 }
-
-// function trimText(text, lettersAmount, replacer) {
-//   const trimmedText = text.trim().slice(0, lettersAmount);
-//   this.textContent = `${trimmedText}${replacer}`;
-// }
